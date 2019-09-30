@@ -1,0 +1,1112 @@
+---
+title: " 1º Meetup R-Ladies Lavras"
+subtitle: "@rladieslavras"
+author: ""
+institute: ""
+date: "31 de maio de 2019"
+output:
+  xaringan::moon_reader:
+    css: ["rladies", "rladies-fonts"]
+    lib_dir: libs
+    #chakra: libs/remark-latest.min.js
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+      # seal: false
+      countdown: 60000
+      #autoplay: 300
+      # titleSlideClass: ["right", "top", "my-title"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url("gif2.gif")
+background-size: 1200px
+background-position: 100% 100%
+
+# R-Ladies?
+---
+
+
+## Missão 
+
+- <div style="text-align: justify;"> <font size="6"> 
+ R-Ladies é uma organização mundial no qual sua missão é promover a diversidade de gênero na comunidade R.</font></div>
+
+--
+
+
+- <div style="text-align: justify;"> <font size="6"> 
+ Apoiar os gêneros minoritários para alcançar seu potencial de 
+programação.</font></div>
+
+--
+
+
+- <div style="text-align: justify;"> <font size="6"> 
+Mais mulheres desenvolvendo e criando PACOTES R e se envolvendo
+na comunidade R.</font></div>
+
+---
+
+## De que forma? 
+
+- <div style="text-align: justify;"> <font size="6"> 
+Promovendo Meetups e Mentorias de forma gratuita.
+</font></div>
+
+--
+
+
+- <div style="text-align: justify;"> <font size="6"> 
+Empreendedorismo feminino e diversidade para que as mulheres do ambiente sintam-se engajadas a correrem atrás do seu espaço no mercado.</font></div>
+
+
+--
+
+
+- <div style="text-align: justify;"> <font size="6"> Garantindo espaço amigável e seguro.</font></div>
+
+
+
+---
+
+background-image: url("fig8.jpg")
+background-size: 1200px
+background-position: 100% 100%
+class: center, top, inverse
+
+#  E como surgiu?
+
+---
+
+# 
+
+
+- <div style="text-align: justify;"> <font size="6"> Gabriela de Queiroz fundou a R-Ladies em 1º de outubro de 2012.</font></div> 
+
+
+.right[
+ <img src="fig39.png" height="500px" width="800" />
+</div>
+]
+
+---
+# 
+
+- <div style="text-align: justify;"> <font size="6">  O primeiro encontro foi realizado em San Francisco, Califórnia (Estados Unidos).</font></div>
+
+--
+
+.right[
+ <img src="fig6.jpg" height="400px" width="400" />
+</div>
+]
+
+---
+
+class: inverse, center, middle
+background-image: url("fig10.jpg")
+background-size: 1200px
+background-position: 100% 100%
+
+---
+class: center, middle
+background-image: url("fig12.png")
+background-size: 880px
+
+---
+
+class: center, middle
+background-image: url("fig11.png")
+background-size: 990px
+
+---
+
+class: center, middle
+background-image: url("mapa.png")
+background-size: 990px
+
+---
+
+## Comunidade no Brasil 
+
+- <div style="text-align: justify;"> <font size="5"> Rio de Janeiro</font></div> 
+
+--
+
+- <div style="text-align: justify;"> <font size="5">  Curitiba</font></div> 
+
+--
+
+- <div style="text-align: justify;"> <font size="5">  Niterói</font></div> 
+
+--
+
+- <div style="text-align: justify;"> <font size="5">  Belo Horizonte</font></div> 
+
+--
+
+- <div style="text-align: justify;"> <font size="5"> Porto Alegre</font></div> 
+
+--
+
+- <div style="text-align: justify;"> <font size="5"> Natal </font></div> 
+
+--
+
+- <div style="text-align: justify;"> <font size="5"> Americana</font></div> 
+
+--
+
+- <div style="text-align: justify;"> <font size="5"> São Paulo</font></div>
+
+--
+
+ <div style="text-align: center;color:green"> <font size="20"> Lavras</font></div>   
+
+.center[![Banana](gif7.gif)]
+
+---
+
+class: inverse, middle, center
+
+# R-Ladies Lavras
+
+---
+
+## Membros
+
+.center[<img src="fig14.png" height="500px" width="500" />]
+
+
+
+---
+
+class: inverse, middle, center
+
+# R-Ladies BH
+
+---
+
+
+class: center, inverse
+background-image: url("fig1.jpeg")
+background-position: center
+background-size: contain
+
+---
+
+class: center, inverse
+background-image: url("fig2.jpeg")
+background-position: center
+background-size: contain
+
+---
+class: center, inverse
+background-image: url("fig5.jpeg")
+background-position: center
+background-size: contain
+
+---
+
+class: center, inverse
+background-image: url("fig3.jpeg")
+background-position: center
+background-size: contain
+
+---
+
+class: center, inverse
+background-image: url("fig4.jpeg")
+background-position: center
+background-size: contain
+
+---
+
+class: center, inverse
+background-image: url("rladiesBh.png")
+background-position: center
+background-size: contain
+---
+class: center, middle
+background-image: url("fig15.jpg")
+background-size: 400px
+background-position: 100% 100%
+
+# Forma de comunicação?
+---
+
+class: center, inverse
+background-image: url("figfinal.png")
+background-position: center
+background-size: contain
+---
+
+
+class: inverse, middle, center
+
+# Minha primeira aplicação web com Shiny
+---
+
+# O que é Shiny?
+
+- <div style="text-align: justify;"> <font size="6.5"> Pacote do R ;</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Permite criar apps interativos;</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5">Os apps podem ficar disponíveis na web;</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Não há necessidade de conhecimento avançados em HTML, CSS ou Java Script.</font></div>
+
+---
+
+# O que é necessário?
+
+-  <div style="text-align: justify;"> <font size="6.5"> Software R ;</font></div>
+  
+  - [https://www.r-project.com] 
+
+- <div style="text-align: justify;"> <font size="6.5"> RStudio;</font></div>
+  - [https://www.rstudio.com/products/rstudio/download/]
+
+
+- <div style="text-align: justify;"> <font size="6.5">Pacote Shiny;</font></div>
+
+---
+
+
+# Como começar?
+
+- <div style="text-align: justify;"> <font size="6.5">Ter uma certa habilidade com o R ;</font></div>
+
+
+-  <div style="text-align: justify;"> <font size="6.5">O Shiny possui sua lógica própria;</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Os gráficos e análise realizadas no R podem ser incluidas de um app;</font></div>
+
+.right[<img src="gif13.gif" height="300px" width="400" />]
+
+---
+
+# Como eu comecei?
+
+- <div style="text-align: justify;"> <font size="6.5">  Tutorial;</font></div>
+
+  - https://shiny.rstudio.com/tutorial/
+
+
+<img src="figp.png"/>
+
+---
+
+# Como eu comecei?
+
+-  <div style="text-align: justify;"> <font size="6.5"> Lógica das funções;</font></div>
+
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Editando os apps mais básicos disponíveis na galeria.</font></div>
+
+
+---
+
+# Existe o caminho certo?
+
+.right[<img src="paula1.png" height="500px" width="500" />]
+
+---
+
+# Existe o caminho certo?
+
+- <div style="text-align: justify;"> <font size="6.5">  Editando os apps ;</font></div>
+
+
+-  <div style="text-align: justify;"> <font size="6.5">  Não entende a lógica;</font></div>
+
+
+-  <div style="text-align: justify;"> <font size="6.5">  Faz código na força bruta;</font></div>
+
+
+--
+
+- <div style="text-align: justify;"> <font size="6.5"> Entenda a lógica;</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Comece com o necessário.</font></div>
+
+
+
+
+
+
+---
+
+# Como funciona uma aplicação em Shiny?
+
+<div style="text-align: justify;"> <font size="6.5">  Todo Shiny app possui uma página HTML que o usuário visita quando está usando sua aplicação, por trás dessa página há um servidor que hospeda essa página e roda o código em R.</font></div>
+
+---
+
+# Como funciona uma aplicação em Shiny?
+
+ <div style="text-align: justify;"> <font size="6.5">  O app criado é mantido por um servidor, se usado localmente, seu computador é o servidor.</font></div>
+
+
+
+
+.center[<img src="fig1p.png"/>]
+---
+
+
+# Como funciona uma aplicação em Shiny?
+
+ <div style="text-align: justify;"> <font size="6.5">  O servidor também pode ser o web, dessa forma qualquer pessoa com conexão à internet terá acesso a ele através de um URL.</font></div>
+
+
+
+.center[<img src="fig2p.png"/>]
+---
+
+
+#  Estrutura de um Shiny app
+
+- <div style="text-align: justify;"> <font size="6.5"> ui.R</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5"> server.R</font></div>
+
+
+
+.center[<img src="fig3p.png"/>]
+
+---
+
+# Estrutura de um Shiny app
+
+.center[<img src="fig4p.png"/>]
+
+
+---
+
+# ui.R
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Aqui você cria a interface com o usuário</font></div>
+
+- <div style="text-align: justify;"> <font size="6.5"> Como por exemplo, título e como as informações serão apresentadas.</font></div>
+
+
+
+---
+
+# server.R
+
+
+- <div style="text-align: justify;"> <font size="6.5">  Nesta parte você insere o código</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5">  Análises e gráficos </font></div>
+
+---
+
+
+# Input 
+
+- <div style="text-align: justify;"> <font size="5.5">  É uma lista  nomeada cujos os elementos são definidos pelo desenvolvedor e os valores são alterados de acordo com a interação do usuário, e são definidas no ui</font></div>
+
+.center[<img src="fig5p.png"/>]
+
+- <div style="text-align: justify;"> <font size="5.5">  Lembre-se da sintaxe usada pelo R para acessar listas nomeadas</font></div>
+
+.center[<img src="fig6p.png"/>]
+
+- <div style="text-align: justify;"> <font size="5.5">  Cada input possui um identificador único (ID) que é usado internamente para fazer a ligação entre o ui e server</font></div>
+
+---
+
+# Output
+
+- <div style="text-align: justify;"> <font size="6.5">  Assim como no input, o output também é uma lista nomeada possuindo um ID</font></div>
+
+
+
+- <div style="text-align: justify;"> <font size="6.5">  Cada output deve ser chaamado dentro do ui , para que assim seja exibido no navegador</font></div>
+
+---
+
+class: center
+background-image: url("fig7p.png")
+background-position: center
+background-size: contain
+## Primeiros passos com Shiny
+---
+
+
+class: center
+background-image: url("fig8p.png")
+background-position: center
+background-size: contain
+## Primeiros passos com Shiny
+---
+
+class: center
+background-image: url("fig9p.png")
+background-position: center
+background-size: contain
+## Primeiros passos com Shiny
+---
+
+
+class: center
+background-image: url("fig10p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig30p.png")
+background-position: center
+background-size: contain
+---
+
+
+class: center
+background-image: url("fig11p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig12p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig13p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig14p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig15p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig16p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig17p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig18p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig19p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig20p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig21p.png")
+background-position: center
+background-size: contain
+---
+class: center
+background-image: url("fig22p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig23p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig24p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig25p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig26p.png")
+background-position: center
+background-size: contain
+---
+
+class: center
+background-image: url("fig27p.png")
+background-position: center
+background-size: contain
+---
+
+
+class: center
+background-image: url("fig28p.png")
+background-position: center
+background-size: 80% 70%
+## Inputs usuais
+---
+
+class: center
+background-image: url("fig29p.png")
+background-position: center
+background-size: contain
+## Outputs
+---
+
+
+# Como apresentar o app criado?
+
+- <div style="text-align: justify;"> <font size="6.5">  Sua própia máquina</font></div>
+
+- <div style="text-align: justify;"> <font size="6.5">  Online</font></div>
+---
+
+
+# Como colocar seu app online?
+
+ <div style="text-align: justify;"> <font size="6.5"> 1. Crie uma conta gratuita</font></div>
+ .center[<img src="fig31p.png"/>]
+ 
+---
+
+# Como colocar seu app online?
+
+Shiny app (https://www.shinyapps.io)
+---
+
+# Dica
+
+- <div style="text-align: justify;"> <font size="6.5">  Você consegue colocar online no máximo 5 apps por conta</font></div>
+
+---
+
+# Aplicativos disponíveis
+
+-  Funções (https://appsensinobasico.shinyapps.io/funcoes/)
+
+- Quantitativo (https://appsensinobasico.shinyapps.io/quantitativo/)
+
+- Qualitativo (https://appsensinobasico.shinyapps.io/qualitativo/)
+
+---
+
+
+class: middle, center
+background-image: url("gif18.gif")
+background-position: center
+background-size: contain
+## Dúvidas??
+---
+
+class: middle, center
+background-image: url("obgpaula1.gif")
+background-position: center
+background-size: contain
+---
+
+
+
+class: inverse, middle, center
+
+# Relatórios dinâmicos utilizando o R Markdown
+
+---
+
+## Relatórios de análises ?
+.center[<img src="tenor.gif" height="500px" width="700" />]
+
+---
+
+
+class: center, inverse
+background-image: url("f4.png")
+background-position: center
+background-size: contain
+
+## Realidade da vida 
+
+<!-- .center[<img src="f4.png" height="550px" width="800" />] -->
+
+---
+class: center, inverse
+background-image: url("gif10.gif")
+background-position: center
+background-size: contain
+
+## Realidade da vida 
+
+
+---
+
+
+
+## No dia a dia 
+
+- <div style="text-align: justify;"> <font size="6.5">
+Pesquisadores utiliza softwares em computadores, mas não são formamente treinados a preprar e organizar os arquivos ( dados, códigos, gráficos, tabelas, figuras e relatórios).
+ 
+	.right[<img src="gif40.gif" height="400px" width="400" />]
+---
+class: middle, center
+background-image: url("fk3.png")
+background-position: center
+background-size: contain
+ 
+---
+
+## Ciência
+
+-  <div style="text-align: justify;"> <font size="6.5"> Replicação</font></div>
+
+		Muitas vezes difícil;
+
+- <div style="text-align: justify;"> <font size="6.5"> Reproducibilidade</font></div>
+	
+		Mais fácil. O mínimo de qualquer pesquisa é ser reprodutível;
+
+- <div style="text-align: justify;"> <font size="6.5"> Elementos da reproducibilidade:</font></div>
+
+		1-Dados; 2-Código; 3-Documentação; 4-Distribuição
+		
+	.right[<img src="f2.jpg" height="300px" width="300" />]
+ 
+---
+
+
+
+## Vantagens
+
+- <div style="text-align: justify;"> <font size="6.5"> Compartilhar para ficar conhecido, e citado!</font></div>
+
+	
+- <div style="text-align: justify;"> <font size="6.5">Maior eficiência do trabalho com rotinas automatizadas</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5">Transparências do processo (e decisões) de análise</font></div>  
+
+
+- <div style="text-align: justify;"> <font size="6.5">Aproveita a estrutura para outros projetos</font></div>
+
+---
+
+
+## Por que compartilhar os dados?
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Permitir que novas análises sejam feitas com os dados.</font></div>
+
+	
+- <div style="text-align: justify;"> <font size="6.5"> Documentação: dados fácies de entender</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5">Formatação: uso de programas de computadores</font></div>  
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Distribuição: repósitórios e licenças aberta</font></div>
+
+---
+## Por que muitos não compartilham?
+
+
+- <div style="text-align: justify;"> <font size="6.5">Receio de perder a corrida pela publicação
+</font></div>
+
+	
+- <div style="text-align: justify;"> <font size="6.5"> Desconhecimento de com compartilhar </font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5">Postura contrária ao compartilhamento</font></div>  
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Percepção de que é tecnicamnete difícil...</font></div>
+
+---
+
+
+
+## Por que compartilhar os dados?
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Permitir que novas análises sejam feitas com os dados.</font></div>
+
+	
+- <div style="text-align: justify;"> <font size="6.5"> Documentação: dados fácies de entender</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5">Formatação: uso de programas de computadores</font></div>  
+
+
+- <div style="text-align: justify;"> <font size="6.5"> Distribuição: repósitórios e licenças aberta</font></div>
+
+---
+
+## Conceitos
+
+- <div style="text-align: justify;"> <font size="6.5">Friedrinch Leisch , 2002</font></div>
+	
+  	-  <div style="text-align: justify;"> <font size="6.5">Sweave</font></div>
+
+
+- <div style="text-align: justify;"> <font size="6.5">Yhui Xie</font></div>  
+
+	-  <div style="text-align: justify;"> <font size="6.5">knitr</font></div>
+
+	-  <div style="text-align: justify;"> <font size="6.5">rmarkdown.</font></div>
+ 
+	.right[<img src="knitr.gif" height="400px" width="400" />]
+---
+
+
+class: middle, center
+background-image: url("fk5.png")
+background-position: center
+background-size: contain
+
+---
+class: middle, center
+background-image: url("fk4.png")
+background-position: center
+background-size: contain
+
+---
+
+class: middle, center
+background-image: url("f15.png")
+background-position: center
+background-size: contain
+
+---
+
+
+## Formatos
+
+- [tufte:](https://github.com/rstudio/tufte) Estilo de "folheto" proposto por Edward Tufte (.html e .pdf);
+
+- [rticles:](https://github.com/rstudio/rticles) Formatos específicos para artigos (.pdf);
+
+- [prettydoc:](https://github.com/yixuan/prettydoc) Formatos para páginas web (.html);
+
+- [rmdformats:](https://github.com/juba/rmdformats) Formatos para páginas web (.html);
+
+- [rmdshower:](https://github.com/mangothecat/rmdshower) Apresentações usando shower (.html);
+
+- [xaringan:](https://github.com/yihui/xaringan) Apresentações usando remark.js (.html);
+
+- [revealjs:](https://github.com/rstudio/revealjs) Apresentações usando reveal.js (.html);
+
+- [bookdown:](https://github.com/rstudio/bookdown) Múltiplos arquivos para elaboração de documentos longos;
+
+- [blogdown:](https://github.com/rstudio/blogdown) Múltiplos arquivos para elaboração de sites e blogs;
+
+- [pkgdown:](https://github.com/r-lib/pkgdown)Construção de páginas web para exposição de pacotes R;
+
+
+
+
+---
+## O que é Markdown? 
+
+<!-- [//]: - O Markdown é uma ferramenta de conversão de texto em HTML para escritores da web.  -->
+
+- <div style="text-align: justify;"> <font size="5.1">O Markdown permite escrever usando um formato de texto simples, de fácil leitura e fácil de escrever, e depois convertê-lo em XHTML (ou HTML).</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1">Markdown é uma linguagem de marcação simples para escrever textos</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1">O texto pode ser lido sem nenhum processamento, ou seja, da maneira como está escrito.</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1"> A proposta do Markdown é que o escritor se concentre no texto e não na formatação. Pode ser convertido para vários outros formatos além de HTML.</font></div>
+
+---
+
+## R Markdown
+
+-  <div style="text-align: justify;"> <font size="5.1"> R Markdown: R + Markdown;</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1"> John Gruber e Aaron Swartz (2004) (Markdown);</font></div>
+
+.center[<img src="f5.png" height="180px" width="400" />]
+
+- <div style="text-align: justify;"> <font size="5.1"> Linguagem mais simples (Latex, Pandoc, etc);</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1"> Produzir documentos nos formatos HTML, PDF, WORD, etc;</font></div>
+---
+
+
+## Formatos 
+
+- <div style="text-align: justify;"> <font size="5.1"> html_document</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1"> pdf_document</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1"> beamer_presentation</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1">ioslides_presentation</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1"> slidy_presentation</font></div>
+
+
+- <div style="text-align: justify;"> <font size="5.1"> word_document</font></div>
+
+---
+class: center, inverse
+background-image: url("gif14.gif")
+background-position: center
+background-size: 100% 100%
+
+## <div style="text-align: center;"> <font size="15">  Como instalar o R Markdown?</font></div>  
+
+---
+
+## Instalando o R Markdown 
+
+<div style="text-align: justify;"> <font size="5.1"> Instalação do Miktex </font></div>
+
+site: https://miktex.org/download 
+
+<div style="text-align: justify;"> <font size="5.1"> Instalação do RStudio</font></div>
+
+
+site: http://www.rstudio.com/products/rstudio/
+ 
+ 
+ 
+<div style="text-align: justify;"> <font size="5.1"> Instalação do R Markdown</font></div>
+
+						install.packages("rmarkdown")
+						
+---
+
+
+
+## Código + Narrativa  = Relatório
+
+```{r, echo=T,fig=T,out.width='45%',out.height='45%',fig.align='center', fig.cap='Dispersão dos dados'}
+fit <- lm(dist ~ speed, data = cars)
+b   <- coef(fit)
+plot(cars, pch="+", col=2)
+```
+Coeficiente angular é `r b[1]`.
+
+---
+class: center
+background-image: url("f6.png")
+background-position: center
+background-size: 95% 95%
+---
+
+class: center
+background-image: url("f7.png")
+background-position: center
+background-size: 95% 95%
+---
+
+
+class: center
+background-image: url("f17.png")
+background-position: center
+background-size: 95% 95%
+---
+
+
+class: center
+background-image: url("f18.png")
+background-position: center
+background-size: 95% 95%
+---
+
+class: center, inverse
+background-image: url("gif15.gif")
+background-position: center
+background-size: 85% 55%
+## Como aprender a sintaxe ?
+---
+
+class: center
+background-image: url("f19.png")
+background-position: center
+background-size: 95% 95%
+---
+
+class: center
+background-image: url("f20.PNG")
+background-position: center
+background-size: 95% 95%
+---
+
+
+class: center
+background-image: url("f21.PNG")
+background-position: center
+background-size: 95% 95%
+---
+
+## Ambiente matemático
+
+São os mesmos comandos utilizados no Latex.
+
+$\bar{x} =  \frac{ \displaystyle \sum_{i=1}^{n} x_i}{n}$
+```
+$\bar{x} = \frac{ \displaystyle \sum_{i=1}^{n} x_i}{n}$
+```
+$$\mbox{var}(x) =\frac{\displaystyle\sum_{i=1}^{n}(x_i- \bar{x})^2}{n-1} $$
+```
+$$\mbox{var}(x)=\frac{\displaystyle \sum_{i=1}^{n}(x_i- \bar{x})^2}{n-1}$$
+```
+---
+
+
+## Alinhamento de equações
+
+
+$$
+\begin{aligned}
+  \bar{x} & = \frac{1}{N}\sum_{i=1}^{N}x_{i} \\
+  \widehat{\boldsymbol{\beta}} & = (\mathbf{X}^{T}
+  \mathbf{X})^{-1}\mathbf{X}^{T}\mathbf{y} 
+\end{aligned}
+$$
+
+```
+$$
+\begin{aligned}
+  \bar{x} & = \frac{1}{N}\sum_{i=1}^{N}x_{i} \\
+  \widehat{\boldsymbol{\beta}} & = (\mathbf{X}^{T}
+  \mathbf{X})^{-1}\mathbf{X}^{T}\mathbf{y} 
+\end{aligned}
+$$
+```
+---
+
+class: center,inverse
+background-image: url("gif16.gif")
+background-position: center
+background-size: 100% 100%
+## <div style="text-align: center;"> <font size="15">  Como inserir código R?</font></div> 
+---
+
+class: center
+background-image: url("f8.png")
+background-position: center
+background-size: 80% 80%
+---
+class: center
+background-image: url("f9.png")
+background-position: center
+background-size: 80% 80%
+---
+class: center
+background-image: url("f10.png")
+background-position: center
+background-size: 80% 80%
+---
+
+## Chunk 
+
+```{r, echo=T}
+summary(cars)
+```
+
+---
+## Chunk 
+
+```{r, echo=T, fig.cap=" Título da figura"}
+plot(cars)
+```
+
+---
+
+class: center
+background-image: url("rticlef1.png")
+background-position: center
+background-size: 80% 70%
+## From Template
+---
+
+class: center
+background-image: url("f14.png")
+background-position: center
+background-size: 80% 70%
+## Livros
+
+---
+
+class: center
+background-image: url("gif18.gif")
+background-position: center
+background-size: 80% 70%
+## Dúvidas
+
+
+
+---
+
+class: center
+background-image: url("gif19.gif")
+background-position: center
+background-size: 100% 100%
+
+
+
+---
+
+class: center
+background-image: url("gif21.gif")
+background-position: center
+background-size: 100% 100%
+
+---
+
+class: center, inverse
+background-image: url("flash.gif")
+background-position: center
+background-size: 100% 100%
+## Fotos
+
+
+
+
